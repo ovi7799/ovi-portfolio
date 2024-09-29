@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .navbar-menu-active::after {
+        width: 5%;
+    }
+
+    .navbar-menu:hover::after {
+        width: 6%;
+    }
+
+    .navbar-menu {
+        margin: 0;
+    }
+
+    .about-section-position-para2 {
+        font-size: 60px;
+    }
+
+    .about-section-para2 {
+        font-size: 14px;
+    }
+
+    .facebook-icon {
+        margin-bottom: 26px;
+        padding-top: 25px;
+    }
+    .card__title{
+        font-size: 16px;
+    }
+    .card__button{
+        font-size: 15px;
+    }
+    .card__data{
+        margin-bottom: 12%;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .navbar-menu-active::before{
+        width: 7%;
+    }
+    .navbar-menu:hover::before{
+        width: 7%;
+    }
+    .navbar-menu-active::after {
+        width: 9%;
+    }
+
+    .navbar-menu:hover::after {
+        width: 11%;
+    }
+
+    .navbar-menu {
+        margin: 0;
+    }
+
+    .hello-icon {
+        width: 8%;
+    }
+
+    .navbar-button2 {
+        margin-bottom: 70%;
+    }
+
+    #banner-section {
+        height: auto;
+    }
+
+    .hello-flex {
+        margin-top: 35%;
+    }
+
+    .about-section-position-para2 {
+        font-size: 65px;
+    }
+
+    .about-section-photo {
+        height: 450px;
+    }
+
+    .about-section-para2 {
+        font-size: 16px;
+    }
+
+    .skills-area {
+        padding: 0 5%;
+    }
+
+    .navbar-button2 {
+        margin-bottom: 15%;
+    }
+
+    .card__data {
+        width: 100%;
+        background-color: var(--primary-color);
+        padding: 1.5rem 2rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 1rem;
+        position: absolute;
+        bottom: -9rem;
+        margin-inline: auto;
+        opacity: 0;
+        transition: opacity 1s 1s;
+    }
+
+    .card__title {
+        font-size: 22px;
+        font-weight: 500;
+        color: var(--main-colour);
+        margin-bottom: .75rem;
+    }
+
+    .card__button {
+        color: var(--primary-color);
+        background-color: var(--main-colour);
+        padding: 8px 20px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
+    .card__data{
+        margin-bottom: 12%;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    .navbar-menu-active::after {
+        width: 12%;
+    }
+
+    .navbar-menu:hover::after {
+        width: 14%;
+    }
+
+    .navbar-menu {
+        margin: 0;
+    }
+
+    .about-section-position-para2 {
+        font-size: 58px;
+    }
+    .card__data{
+        margin-bottom: 15%;
+    }
+}
